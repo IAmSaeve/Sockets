@@ -5,7 +5,6 @@
     <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_TCPEchoBetter.-1343378920.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="EchoService.cs" t="Include" />
-      <e p="Program.cs" t="Include" />
       <e p="TCPEchoBetter.csproj" t="IncludeRecursive" />
       <e p="TCPEchoServer.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />

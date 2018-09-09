@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEchoBetter/TCPEchoBetter.csproj",
+      "projectUniqueName": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/TCPEchoBetter/TCPEchoBetter.csproj",
       "projectName": "TCPEchoBetter",
-      "projectPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEchoBetter/TCPEchoBetter.csproj",
+      "projectPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/TCPEchoBetter/TCPEchoBetter.csproj",
       "packagesPath": "/home/sebastian/.nuget/packages/",
-      "outputPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEchoBetter/obj/",
+      "outputPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/TCPEchoBetter/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/opt/dotnet/sdk/NuGetFallbackFolder"
