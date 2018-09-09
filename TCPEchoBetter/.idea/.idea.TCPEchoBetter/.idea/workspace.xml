@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="435e7c10-cff6-47fc-bb70-d9d79f5d87ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EchoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPEchoServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPEchoServer.cs" afterDir="false" />
-    </list>
+    <list default="true" id="435e7c10-cff6-47fc-bb70-d9d79f5d87ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,20 +12,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="1851" />
-          <entry key="txt" value="29" />
+          <entry key="txt" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="1851" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="PLAIN_TEXT" value="89" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EchoService.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1955">
@@ -53,17 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="690">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
-                <marker date="1536497765883" expanded="true" signature="6:57" ph="..." />
-                <marker date="1536497765883" expanded="true" signature="82:923" ph="{...}" />
-                <marker date="1536497765883" expanded="true" signature="108:921" ph="{...}" />
-                <marker date="1536497765883" expanded="true" signature="154:915" ph="{...}" />
-                <marker date="1536497765883" expanded="true" signature="576:905" ph="{...}" />
+                <marker date="1536497934299" expanded="true" signature="6:96" ph="..." />
+                <marker date="1536497934299" expanded="true" signature="121:1013" ph="{...}" />
+                <marker date="1536497934299" expanded="true" signature="147:1011" ph="{...}" />
+                <marker date="1536497934299" expanded="true" signature="256:1005" ph="{...}" />
+                <marker date="1536497934299" expanded="true" signature="678:995" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,8 +82,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TCPEchoServer.cs" />
         <option value="$PROJECT_DIR$/EchoService.cs" />
+        <option value="$PROJECT_DIR$/TCPEchoServer.cs" />
       </list>
     </option>
   </component>
@@ -160,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536486348124</updated>
-      <workItem from="1536486349471" duration="11447000" />
+      <workItem from="1536486349471" duration="11629000" />
     </task>
     <task id="LOCAL-00001" summary="Code cleaning">
       <created>1536496982482</created>
@@ -169,11 +170,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536496982482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added documentation">
+      <created>1536497815646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536497815646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Disabled annoying ReSharper warning.">
+      <created>1536497972843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536497972843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6384000" />
+    <option name="totallyTimeSpent" value="6566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -186,7 +201,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
@@ -201,7 +215,7 @@
       <window_info anchor="bottom" id="Build" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,23 +234,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code cleaning" />
+    <MESSAGE value="Added documentation" />
+    <MESSAGE value="Disabled annoying ReSharper warning." />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled annoying ReSharper warning." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <marker date="1536497765883" expanded="true" signature="6:57" ph="..." />
-            <marker date="1536497765883" expanded="true" signature="82:923" ph="{...}" />
-            <marker date="1536497765883" expanded="true" signature="108:921" ph="{...}" />
-            <marker date="1536497765883" expanded="true" signature="154:915" ph="{...}" />
-            <marker date="1536497765883" expanded="true" signature="576:905" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EchoService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -255,6 +257,20 @@
             <marker date="1536497786830" expanded="true" signature="2132:3363" ph="{...}" />
             <marker date="1536497786830" expanded="true" signature="2233:2604" ph="/* This method handles interrupt messages sent by the client. ... */" />
             <marker date="1536497786830" expanded="true" signature="2647:3166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1536497934299" expanded="true" signature="6:96" ph="..." />
+            <marker date="1536497934299" expanded="true" signature="121:1013" ph="{...}" />
+            <marker date="1536497934299" expanded="true" signature="147:1011" ph="{...}" />
+            <marker date="1536497934299" expanded="true" signature="256:1005" ph="{...}" />
+            <marker date="1536497934299" expanded="true" signature="678:995" ph="{...}" />
           </folding>
         </state>
       </provider>
