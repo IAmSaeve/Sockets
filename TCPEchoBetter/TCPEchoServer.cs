@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Sockets;
 
@@ -6,6 +7,7 @@ namespace TCPEchoBetter
 {
     class TCPEchoServer
     {
+        [SuppressMessage("ReSharper", "FunctionNeverReturns")]
         static void Main(string[] args)
         {
             // prepares the server to accept client on localhost at port 6789.
@@ -22,7 +24,7 @@ namespace TCPEchoBetter
                 Console.WriteLine("Waiting for a client to connect...");
                 var connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Server activated\n");
-            
+
                 var es = new EchoService(connectionSocket);
                 es.DoIt();
             }
