@@ -16,9 +16,8 @@ namespace TCPEchoBetter
 
         public void DoIt()
         {
-            //var ns = ConnectionSocket.GetStream();
             Stream ns = new NetworkStream(ConnectionSocket.Client);
-            
+
             while (true)
             {
                 if (!ConnectionSocket.Connected)
@@ -28,16 +27,17 @@ namespace TCPEchoBetter
                     Console.Clear();
                     break;
                 }
-                
+
                 var sr = new StreamReader(ns);
                 var sw = new StreamWriter(ns) {AutoFlush = true};
                 var message = sr.ReadLine();
                 var answer = "";
-                
+
                 if (message == string.Empty)
                 {
                     Console.WriteLine("Empty string detected!");
-                    Console.WriteLine("Either the client sent an empty string or the connection is lost.\nRestarting server");
+                    Console.WriteLine(
+                        "Either the client sent an empty string or the connection is lost.\nRestarting server");
                     Thread.Sleep(2300);
                     Console.Clear();
                     ns.Close();
@@ -65,7 +65,7 @@ namespace TCPEchoBetter
                     sw.WriteLine(answer);
                     message = sr.ReadLine();
                 }
-                
+
                 ns.Close();
                 ConnectionSocket.Close();
             }
