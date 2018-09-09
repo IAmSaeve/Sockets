@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="435e7c10-cff6-47fc-bb70-d9d79f5d87ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/.idea/.idea.SocketIterative/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/.idea/.idea.SocketIterative/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/.idea/.idea.SocketIterative/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/.idea/.idea.SocketIterative/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/.idea/.idea.SocketIterative/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/SocketIterative.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/TCPEchoServer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/obj/SocketIterative.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/obj/SocketIterative.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/obj/SocketIterative.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketIterative/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TCPEchoBetter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TCPEchoServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPEchoServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TCPEchoBetter.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TCPEchoBetter.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TCPEchoBetter.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TCPEchoBetter.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +15,14 @@
     <session id="1160815473">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="734" />
+          <entry key="cs" value="1851" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="734" />
+          <entry key="C#" value="1851" />
+          <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -44,19 +32,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EchoService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="1955">
+              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
               <folding>
-                <marker date="1536496368812" expanded="true" signature="6:80" ph="..." />
-                <marker date="1536496368812" expanded="true" signature="105:2456" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="136:2454" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="250:319" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="347:2448" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="516:2438" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="579:805" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="1075:1485" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="1541:2337" ph="{...}" />
-                <marker date="1536496368812" expanded="true" signature="1664:2183" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="6:80" ph="..." />
+                <marker date="1536497786830" expanded="true" signature="105:3528" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="136:3526" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="250:319" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="347:3520" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="382:3510" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="525:751" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="769:946" ph="/* Sets variables for use later. ... */" />
+                <marker date="1536497786830" expanded="true" signature="1227:1596" ph="/* This method stops the server if an empty string is detected. ... */" />
+                <marker date="1536497786830" expanded="true" signature="1641:2076" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="2132:3363" ph="{...}" />
+                <marker date="1536497786830" expanded="true" signature="2233:2604" ph="/* This method handles interrupt messages sent by the client. ... */" />
+                <marker date="1536497786830" expanded="true" signature="2647:3166" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,15 +56,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="100">
+              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
               <folding>
-                <marker date="1536495193277" expanded="true" signature="6:57" ph="..." />
-                <marker date="1536495193277" expanded="true" signature="82:948" ph="{...}" />
-                <marker date="1536495193277" expanded="true" signature="108:946" ph="{...}" />
-                <marker date="1536495193277" expanded="true" signature="154:940" ph="{...}" />
-                <marker date="1536495193277" expanded="true" signature="313:407" ph="/* Alternatively but deprecated ... */" />
-                <marker date="1536495193277" expanded="true" signature="520:930" ph="{...}" />
+                <marker date="1536497765883" expanded="true" signature="6:57" ph="..." />
+                <marker date="1536497765883" expanded="true" signature="82:923" ph="{...}" />
+                <marker date="1536497765883" expanded="true" signature="108:921" ph="{...}" />
+                <marker date="1536497765883" expanded="true" signature="154:915" ph="{...}" />
+                <marker date="1536497765883" expanded="true" signature="576:905" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,12 +160,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536486348124</updated>
-      <workItem from="1536486349471" duration="10289000" />
+      <workItem from="1536486349471" duration="11447000" />
     </task>
+    <task id="LOCAL-00001" summary="Code cleaning">
+      <created>1536496982482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536496982482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5226000" />
+    <option name="totallyTimeSpent" value="6384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,6 +186,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
@@ -219,37 +218,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code cleaning" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="100">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
           <folding>
-            <marker date="1536495193277" expanded="true" signature="6:57" ph="..." />
-            <marker date="1536495193277" expanded="true" signature="82:948" ph="{...}" />
-            <marker date="1536495193277" expanded="true" signature="108:946" ph="{...}" />
-            <marker date="1536495193277" expanded="true" signature="154:940" ph="{...}" />
-            <marker date="1536495193277" expanded="true" signature="313:407" ph="/* Alternatively but deprecated ... */" />
-            <marker date="1536495193277" expanded="true" signature="520:930" ph="{...}" />
+            <marker date="1536497765883" expanded="true" signature="6:57" ph="..." />
+            <marker date="1536497765883" expanded="true" signature="82:923" ph="{...}" />
+            <marker date="1536497765883" expanded="true" signature="108:921" ph="{...}" />
+            <marker date="1536497765883" expanded="true" signature="154:915" ph="{...}" />
+            <marker date="1536497765883" expanded="true" signature="576:905" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EchoService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="1955">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
           <folding>
-            <marker date="1536496368812" expanded="true" signature="6:80" ph="..." />
-            <marker date="1536496368812" expanded="true" signature="105:2456" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="136:2454" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="250:319" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="347:2448" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="516:2438" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="579:805" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="1075:1485" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="1541:2337" ph="{...}" />
-            <marker date="1536496368812" expanded="true" signature="1664:2183" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="6:80" ph="..." />
+            <marker date="1536497786830" expanded="true" signature="105:3528" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="136:3526" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="250:319" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="347:3520" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="382:3510" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="525:751" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="769:946" ph="/* Sets variables for use later. ... */" />
+            <marker date="1536497786830" expanded="true" signature="1227:1596" ph="/* This method stops the server if an empty string is detected. ... */" />
+            <marker date="1536497786830" expanded="true" signature="1641:2076" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="2132:3363" ph="{...}" />
+            <marker date="1536497786830" expanded="true" signature="2233:2604" ph="/* This method handles interrupt messages sent by the client. ... */" />
+            <marker date="1536497786830" expanded="true" signature="2647:3166" ph="{...}" />
           </folding>
         </state>
       </provider>

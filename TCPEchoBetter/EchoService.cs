@@ -16,10 +16,9 @@ namespace TCPEchoBetter
 
         public void DoIt()
         {
-            Stream ns = new NetworkStream(ConnectionSocket.Client);
-
             while (true)
             {
+                // Detects a lost or closed connection and restarts the server.
                 if (!ConnectionSocket.Connected)
                 {
                     Console.WriteLine("No connection to client, restarting server.");
@@ -28,11 +27,22 @@ namespace TCPEchoBetter
                     break;
                 }
 
+                /*
+                 * Sets variables for use later.
+                 * Enforces message flushing with, (AutoFlush = true), needed to push messages instantly.
+                 */
+                Stream ns = new NetworkStream(ConnectionSocket.Client);
                 var sr = new StreamReader(ns);
                 var sw = new StreamWriter(ns) {AutoFlush = true};
                 var message = sr.ReadLine();
                 var answer = "";
 
+                /*
+                 * This method stops the server if an empty string is detected.
+                 * This is done because a lost connection to a client usually sends empty strings.
+                 * The second reason is prevent recourse waste since the server always expects a not null or empty
+                 * string object to read and answer.
+                 */
                 if (message == string.Empty)
                 {
                     Console.WriteLine("Empty string detected!");
@@ -49,6 +59,12 @@ namespace TCPEchoBetter
                 {
                     Console.WriteLine("Client: " + message);
 
+                    /*
+                     * This method handles interrupt messages sent by the client.
+                     * When the server receives "stop", it informs the client and the server that it will restart.
+                     * After the connection is closed the method break the while loop and waits for a new client to
+                     * connect.
+                     */
                     if (message == "stop")
                     {
                         Console.WriteLine("Received interrupt signal!");
@@ -61,11 +77,13 @@ namespace TCPEchoBetter
                         break;
                     }
 
+                    // Responds to client.
                     answer = message.ToUpper();
                     sw.WriteLine(answer);
                     message = sr.ReadLine();
                 }
 
+                // Closes connection after client disconnect.
                 ns.Close();
                 ConnectionSocket.Close();
             }
