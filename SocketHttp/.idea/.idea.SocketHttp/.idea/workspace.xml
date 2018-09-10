@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22432c7c-5b42-4189-a925-efe71d0c0130" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Client/bin/Debug/netcoreapp2.1/Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/Debug/netcoreapp2.1/Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/bin/Debug/netcoreapp2.1/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Client/bin/Debug/netcoreapp2.1/Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Client.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Client.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Client.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Client.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/Debug/netcoreapp2.1/Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SocketHttp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SocketHttp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SocketHttp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SocketHttp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SocketHttp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SocketHttp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SocketHttp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/SocketHttp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/SocketHttp.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SocketHttp.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
     </list>
@@ -25,45 +21,34 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="583" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="583" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Client/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <marker date="1536600252000" expanded="true" signature="0:198" ph="/* TCPEchoClient ... */" />
-                <marker date="1536600252000" expanded="false" signature="206:408" ph="..." />
-                <marker date="1536600252000" expanded="true" signature="426:2372" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="446:2369" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="492:2362" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="610:703" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="735:1212" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="1551:2192" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="1585:1845" ph="{...}" />
-                <marker date="1536600252000" expanded="true" signature="1881:2178" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,14 +66,48 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EchoService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="53" selection-start-line="53" selection-end-line="70" selection-end-column="21" />
+              <folding>
+                <marker date="1536610261346" expanded="true" signature="6:144" ph="..." />
+                <marker date="1536610261346" expanded="true" signature="166:5091" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="197:5089" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="311:380" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="408:5083" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="443:5073" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="477:4431" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="516:702" ph="/* Sets variables for use later. ... */" />
+                <marker date="1536610261346" expanded="true" signature="1007:1391" ph="/* This method stops the server if an empty string is detected. ... */" />
+                <marker date="1536610261346" expanded="true" signature="1440:1915" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="2063:2886" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="2946:4268" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="3059:3445" ph="/* This method handles interrupt messages sent by the client. ... */" />
+                <marker date="1536610261346" expanded="true" signature="3492:4051" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="4477:4755" ph="{...}" />
+                <marker date="1536610261346" expanded="true" signature="4791:5059" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EchoService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TCPEchoServer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EchoService.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -115,11 +134,6 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SocketHttp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SocketHttp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Client" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -177,11 +191,12 @@
       <updated>1536605545976</updated>
       <workItem from="1536605547216" duration="135000" />
       <workItem from="1536605750837" duration="16000" />
+      <workItem from="1536606300651" duration="4077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151000" />
+    <option name="totallyTimeSpent" value="4228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,7 +211,7 @@
     <frame x="-1" y="28" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +231,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.32960597" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32960597" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -239,25 +254,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Client/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <marker date="1536600252000" expanded="true" signature="0:198" ph="/* TCPEchoClient ... */" />
-            <marker date="1536600252000" expanded="false" signature="206:408" ph="..." />
-            <marker date="1536600252000" expanded="true" signature="426:2372" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="446:2369" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="492:2362" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="610:703" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="735:1212" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="1551:2192" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="1585:1845" ph="{...}" />
-            <marker date="1536600252000" expanded="true" signature="1881:2178" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/Program.cs" />
     <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -269,6 +266,31 @@
             <marker date="1536604792022" expanded="true" signature="220:1332" ph="{...}" />
             <marker date="1536604792022" expanded="true" signature="642:1322" ph="{...}" />
             <marker date="1536604792022" expanded="true" signature="888:1200" ph="/* Makes a new EchoService object with the connectionSocket argument. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EchoService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="53" selection-start-line="53" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <marker date="1536610261346" expanded="true" signature="6:144" ph="..." />
+            <marker date="1536610261346" expanded="true" signature="166:5091" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="197:5089" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="311:380" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="408:5083" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="443:5073" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="477:4431" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="516:702" ph="/* Sets variables for use later. ... */" />
+            <marker date="1536610261346" expanded="true" signature="1007:1391" ph="/* This method stops the server if an empty string is detected. ... */" />
+            <marker date="1536610261346" expanded="true" signature="1440:1915" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="2063:2886" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="2946:4268" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="3059:3445" ph="/* This method handles interrupt messages sent by the client. ... */" />
+            <marker date="1536610261346" expanded="true" signature="3492:4051" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="4477:4755" ph="{...}" />
+            <marker date="1536610261346" expanded="true" signature="4791:5059" ph="{...}" />
           </folding>
         </state>
       </provider>

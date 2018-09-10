@@ -47,6 +47,25 @@ namespace SocketHttp
                         ConnectionSocket.Close();
                         break;
                     }
+                    
+                    if (message != null && (message.Contains("GET") && message.Contains(".html") && message.Contains("HTTP")))
+                    {
+                        var s = message.Split(' ', ' ')[0 + 1];
+                        //Debug.WriteLine("Client requested the following URI: " + s);
+                        answer = "HTTP/1.1 200 OK\r\n" +
+                                 "Content-Type: text/html\r\n" +
+                                 "Connection: close\r\n" +
+                                 "\r\n" +
+                                 "<!DOCTYPE HTML>" +
+                                 "<html>" +
+                                 "Hello user!" +
+                                 "</html>" +
+                                 "\r\n";
+                        sw.WriteLine(answer);
+                        Console.Clear();
+                        ns.Close();
+                        ConnectionSocket.Close();
+                    }
 
                     while (!string.IsNullOrEmpty(message))
                     {
