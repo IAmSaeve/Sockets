@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_SocketHttp.-1002704231.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="CL" t="Include">
+        <e p="Program.cs" t="Include" />
+        <e p="obj" t="Include">
+          <e p="CL.csproj.nuget.cache" t="Include" />
+          <e p="CL.csproj.nuget.g.props" t="Include" />
+          <e p="CL.csproj.nuget.g.targets" t="Include" />
+          <e p="project.assets.json" t="Include" />
+        </e>
+      </e>
+      <e p="Client" t="Include">
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Client.deps.json" t="Include" />
+              <e p="Client.dll" t="Include" />
+              <e p="Client.pdb" t="Include" />
+              <e p="Client.runtimeconfig.dev.json" t="Include" />
+              <e p="Client.runtimeconfig.json" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="Include">
+          <e p="Client.csproj.nuget.cache" t="Include" />
+          <e p="Client.csproj.nuget.g.props" t="Include" />
+          <e p="Client.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Client.AssemblyInfo.cs" t="Include" />
+              <e p="Client.AssemblyInfoInputs.cache" t="Include" />
+              <e p="Client.assets.cache" t="Include" />
+              <e p="Client.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="Client.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="Client.csprojAssemblyReference.cache" t="Include" />
+              <e p="Client.csprojResolveAssemblyReference.cache" t="Include" />
+              <e p="Client.dll" t="Include" />
+              <e p="Client.pdb" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+        </e>
+      </e>
+      <e p="EchoService.cs" t="Include" />
+      <e p="Socket HttpStart.pdf" t="Include" />
+      <e p="SocketHttp.csproj" t="IncludeRecursive" />
+      <e p="TCPEchoServer.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="SocketHttp.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/Debug/netcoreapp2.1/SocketHttp.csprojAssemblyReference.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/Debug/netcoreapp2.1/SocketHttp.csproj.CoreCompileInputs.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/Debug/netcoreapp2.1/SocketHttp.AssemblyInfoInputs.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/Debug/netcoreapp2.1/SocketHttp.AssemblyInfo.cs
