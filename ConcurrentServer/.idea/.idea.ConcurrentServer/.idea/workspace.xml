@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9602698d-eca1-4943-b5fd-9f79cec53c0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EchoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCPEchoServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPEchoServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
     <session id="1146411621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -32,13 +32,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="699" />
-          <entry key="txt" value="143" />
+          <entry key="txt" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="699" />
-          <entry key="PLAIN_TEXT" value="143" />
+          <entry key="PLAIN_TEXT" value="188" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="637">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <marker date="1536603758332" expanded="false" signature="6:126" ph="..." />
                 <marker date="1536603758332" expanded="true" signature="154:1409" ph="{...}" />
@@ -185,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536601367223</updated>
-      <workItem from="1536601370338" duration="2390000" />
+      <workItem from="1536601370338" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="Added exception handling to EchoService">
       <created>1536602729114</created>
@@ -201,11 +201,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536603718006</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed typo and removed unused references.">
+      <created>1536603786831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536603786831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2390000" />
+    <option name="totallyTimeSpent" value="2994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,10 +225,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -255,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added exception handling to EchoService" />
     <MESSAGE value="Moved to Task.Factory to handle the threading of clients in TCPEchoServer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved to Task.Factory to handle the threading of clients in TCPEchoServer." />
+    <MESSAGE value="Fixed typo and removed unused references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo and removed unused references." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="637">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="47" />
           <folding>
             <marker date="1536603758332" expanded="false" signature="6:126" ph="..." />
             <marker date="1536603758332" expanded="true" signature="154:1409" ph="{...}" />

@@ -6,6 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="ConcurrentServer.csproj" t="IncludeRecursive" />
       <e p="EchoService.cs" t="Include" />
+      <e p="Socket Concurrent.pdf" t="Include" />
       <e p="TCPEchoServer.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
