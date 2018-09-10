@@ -2,7 +2,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Sockets;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConcurrentServer
@@ -25,7 +24,7 @@ namespace ConcurrentServer
             {
                 Console.WriteLine("Waiting for a client to connect...");
                 var connectionSocket = serverSocket.AcceptTcpClient();
-                Console.WriteLine("Client connected succesfully\n");
+                Console.WriteLine("Client connected successfully\n");
 
                 /*
                  * Makes a new EchoService object with the connectionSocket argument.
