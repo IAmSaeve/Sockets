@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9602698d-eca1-4943-b5fd-9f79cec53c0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConcurrentServer/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/bin/Debug/netcoreapp2.1/Client.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/obj/Debug/netcoreapp2.1/Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/obj/Debug/netcoreapp2.1/Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/obj/Debug/netcoreapp2.1/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/obj/Debug/netcoreapp2.1/Client.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EchoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPEchoServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPEchoServer.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,55 +31,58 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="375" />
+          <entry key="cs" value="699" />
+          <entry key="txt" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="375" />
+          <entry key="C#" value="699" />
+          <entry key="PLAIN_TEXT" value="143" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EchoService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+            <state relative-caret-position="23">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1536602601485" expanded="false" signature="6:106" ph="..." />
-                <marker date="1536602601485" expanded="true" signature="134:4088" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="165:4086" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="279:348" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="376:4080" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="411:4070" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="445:3428" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="484:670" ph="/* Sets variables for use later. ... */" />
-                <marker date="1536602601485" expanded="true" signature="975:1359" ph="/* This method stops the server if an empty string is detected. ... */" />
-                <marker date="1536602601485" expanded="true" signature="1408:1883" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="1943:3265" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="2056:2442" ph="/* This method handles interrupt messages sent by the client. ... */" />
-                <marker date="1536602601485" expanded="true" signature="2489:3048" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="3474:3752" ph="{...}" />
-                <marker date="1536602601485" expanded="true" signature="3788:4056" ph="{...}" />
+                <marker date="1536603760006" expanded="false" signature="6:80" ph="..." />
+                <marker date="1536603760006" expanded="true" signature="108:4062" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="139:4060" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="253:322" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="350:4054" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="385:4044" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="419:3402" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="458:644" ph="/* Sets variables for use later. ... */" />
+                <marker date="1536603760006" expanded="true" signature="949:1333" ph="/* This method stops the server if an empty string is detected. ... */" />
+                <marker date="1536603760006" expanded="true" signature="1382:1857" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="1917:3239" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="2030:2416" ph="/* This method handles interrupt messages sent by the client. ... */" />
+                <marker date="1536603760006" expanded="true" signature="2463:3022" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="3448:3726" ph="{...}" />
+                <marker date="1536603760006" expanded="true" signature="3762:4030" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="476">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <marker date="1536601737640" expanded="false" signature="6:120" ph="..." />
-                <marker date="1536601737640" expanded="true" signature="148:1114" ph="{...}" />
-                <marker date="1536601737640" expanded="true" signature="174:1112" ph="{...}" />
-                <marker date="1536601737640" expanded="true" signature="283:1106" ph="{...}" />
-                <marker date="1536601737640" expanded="true" signature="705:1096" ph="{...}" />
+                <marker date="1536603758332" expanded="false" signature="6:126" ph="..." />
+                <marker date="1536603758332" expanded="true" signature="154:1409" ph="{...}" />
+                <marker date="1536603758332" expanded="true" signature="180:1407" ph="{...}" />
+                <marker date="1536603758332" expanded="true" signature="289:1401" ph="{...}" />
+                <marker date="1536603758332" expanded="true" signature="711:1391" ph="{...}" />
+                <marker date="1536603758332" expanded="true" signature="957:1269" ph="/* Makes a new EchoService object with the connectionSocket argument. ... */" />
               </folding>
             </state>
           </provider>
@@ -192,12 +185,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536601367223</updated>
-      <workItem from="1536601370338" duration="1288000" />
+      <workItem from="1536601370338" duration="2390000" />
     </task>
+    <task id="LOCAL-00001" summary="Added exception handling to EchoService">
+      <created>1536602729114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536602729114</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Moved to Task.Factory to handle the threading of clients in TCPEchoServer.">
+      <created>1536603718006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536603718006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1288000" />
+    <option name="totallyTimeSpent" value="2390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +229,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -244,6 +252,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added exception handling to EchoService" />
+    <MESSAGE value="Moved to Task.Factory to handle the threading of clients in TCPEchoServer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved to Task.Factory to handle the threading of clients in TCPEchoServer." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -255,40 +268,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
+    <entry file="file://$PROJECT_DIR$/EchoService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state relative-caret-position="23">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1536601737640" expanded="false" signature="6:120" ph="..." />
-            <marker date="1536601737640" expanded="true" signature="148:1114" ph="{...}" />
-            <marker date="1536601737640" expanded="true" signature="174:1112" ph="{...}" />
-            <marker date="1536601737640" expanded="true" signature="283:1106" ph="{...}" />
-            <marker date="1536601737640" expanded="true" signature="705:1096" ph="{...}" />
+            <marker date="1536603760006" expanded="false" signature="6:80" ph="..." />
+            <marker date="1536603760006" expanded="true" signature="108:4062" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="139:4060" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="253:322" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="350:4054" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="385:4044" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="419:3402" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="458:644" ph="/* Sets variables for use later. ... */" />
+            <marker date="1536603760006" expanded="true" signature="949:1333" ph="/* This method stops the server if an empty string is detected. ... */" />
+            <marker date="1536603760006" expanded="true" signature="1382:1857" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="1917:3239" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="2030:2416" ph="/* This method handles interrupt messages sent by the client. ... */" />
+            <marker date="1536603760006" expanded="true" signature="2463:3022" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="3448:3726" ph="{...}" />
+            <marker date="1536603760006" expanded="true" signature="3762:4030" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EchoService.cs">
+    <entry file="file://$PROJECT_DIR$/TCPEchoServer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <marker date="1536602601485" expanded="false" signature="6:106" ph="..." />
-            <marker date="1536602601485" expanded="true" signature="134:4088" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="165:4086" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="279:348" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="376:4080" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="411:4070" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="445:3428" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="484:670" ph="/* Sets variables for use later. ... */" />
-            <marker date="1536602601485" expanded="true" signature="975:1359" ph="/* This method stops the server if an empty string is detected. ... */" />
-            <marker date="1536602601485" expanded="true" signature="1408:1883" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="1943:3265" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="2056:2442" ph="/* This method handles interrupt messages sent by the client. ... */" />
-            <marker date="1536602601485" expanded="true" signature="2489:3048" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="3474:3752" ph="{...}" />
-            <marker date="1536602601485" expanded="true" signature="3788:4056" ph="{...}" />
+            <marker date="1536603758332" expanded="false" signature="6:126" ph="..." />
+            <marker date="1536603758332" expanded="true" signature="154:1409" ph="{...}" />
+            <marker date="1536603758332" expanded="true" signature="180:1407" ph="{...}" />
+            <marker date="1536603758332" expanded="true" signature="289:1401" ph="{...}" />
+            <marker date="1536603758332" expanded="true" signature="711:1391" ph="{...}" />
+            <marker date="1536603758332" expanded="true" signature="957:1269" ph="/* Makes a new EchoService object with the connectionSocket argument. ... */" />
           </folding>
         </state>
       </provider>
