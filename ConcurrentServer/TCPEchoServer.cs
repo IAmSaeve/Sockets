@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace ConcurrentServer
 {
@@ -26,9 +27,13 @@ namespace ConcurrentServer
                 var connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Client connected succesfully\n");
 
+                /*
+                 * Makes a new EchoService object with the connectionSocket argument.
+                 * After the object is created, the Task.Factory then makes a new thread to run the DoIt method.
+                 * This is needed to handle more then one client at a time (Asynchronous).
+                 */
                 var es = new EchoService(connectionSocket);
-                Thread myThread = new Thread(es.DoIt);
-                myThread.Start();
+                Task.Factory.StartNew(es.DoIt);
             }
         }
     }
