@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/SocketHttp.csproj",
+    "projectUniqueName": "/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/SocketHttp.csproj",
     "projectName": "SocketHttp",
-    "projectPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/SocketHttp.csproj",
-    "outputPath": "/home/sebastian/Desktop/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/",
+    "projectPath": "/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/SocketHttp.csproj",
+    "outputPath": "/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/TCPEcho/SocketHttp/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/opt/dotnet/sdk/NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"

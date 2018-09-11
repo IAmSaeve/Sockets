@@ -48,10 +48,21 @@ namespace SocketHttp
                         break;
                     }
                     
-                    if (message != null && (message.Contains("GET") && message.Contains(".html") && message.Contains("HTTP")))
+                    /*
+                     * This block handles HTTP GET requests.
+                     * When the server receives a the, GET request, string it then split the string to extract the URI.
+                     * After the URI is extracted a HTTP response is sent back to the client. 
+                     */
+                    if (message != null && message.Contains("GET") && message.Contains(".html") &&
+                        message.Contains("HTTP"))
                     {
+                        /*
+                         * Splits the string to extract the URI form the HTTP GET request.
+                         * This is done by removing everything before the first space and the second space.
+                         */
                         var s = message.Split(' ', ' ')[0 + 1];
-                        //Debug.WriteLine("Client requested the following URI: " + s);
+                        
+                        // Forges HTTP response with a html page that says "Hello user!", then sends it to the client.
                         answer = "HTTP/1.1 200 OK\r\n" +
                                  "Content-Type: text/html\r\n" +
                                  "Connection: close\r\n" +
@@ -62,6 +73,8 @@ namespace SocketHttp
                                  "</html>" +
                                  "\r\n";
                         sw.WriteLine(answer);
+                        
+                        // Tries to close the connection to avoid server side spam.
                         Console.Clear();
                         ns.Close();
                         ConnectionSocket.Close();
