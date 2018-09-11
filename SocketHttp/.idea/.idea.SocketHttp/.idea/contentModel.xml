@@ -17,6 +17,7 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="somefile.html" t="Include" />
     </e>
   </component>
 </project>

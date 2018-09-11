@@ -61,21 +61,22 @@ namespace SocketHttp
                          * This is done by removing everything before the first space and the second space.
                          */
                         var s = message.Split(' ', ' ')[0 + 1];
+                        var page = File.ReadAllText(Environment.CurrentDirectory + "/somefile.html");
                         
                         // Forges HTTP response with a html page that says "Hello user!", then sends it to the client.
                         answer = "HTTP/1.1 200 OK\r\n" +
                                  "Content-Type: text/html\r\n" +
                                  "Connection: close\r\n" +
                                  "\r\n" +
-                                 "<!DOCTYPE HTML>" +
-                                 "<html>" +
-                                 "Hello user!" +
-                                 "</html>" +
+                                 page +
                                  "\r\n";
+
+                        
+                        File.ReadAllText(Environment.CurrentDirectory + "/somefile.html");
                         sw.WriteLine(answer);
                         
                         // Tries to close the connection to avoid server side spam.
-                        Console.Clear();
+                        // Console.Clear();
                         ns.Close();
                         ConnectionSocket.Close();
                     }
