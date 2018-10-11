@@ -56,6 +56,8 @@ namespace SocketHttp
                     if (message != null && message.Contains("GET") && message.Contains(".html") &&
                         message.Contains("HTTP"))
                     {
+                        Console.WriteLine("Client: " + message);
+                        
                         /*
                          * Splits the string to extract the URI form the HTTP GET request.
                          * This is done by removing everything before the first space and the second space.
@@ -71,14 +73,8 @@ namespace SocketHttp
                                  page +
                                  "\r\n";
 
-                        
-                        File.ReadAllText(Environment.CurrentDirectory + "/somefile.html");
                         sw.WriteLine(answer);
-                        
-                        // Tries to close the connection to avoid server side spam.
-                        // Console.Clear();
-                        ns.Close();
-                        ConnectionSocket.Close();
+                        break;
                     }
 
                     while (!string.IsNullOrEmpty(message))

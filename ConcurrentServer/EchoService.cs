@@ -24,7 +24,8 @@ namespace ConcurrentServer
                     * Sets variables for use later.
                     * Enforces message flushing with, (AutoFlush = true), needed to push messages instantly.
                     */
-                    Stream ns = new NetworkStream(ConnectionSocket.Client);
+                    // Stream ns = new NetworkStream(ConnectionSocket.Client);
+                    Stream ns = ConnectionSocket.GetStream();
                     var sr = new StreamReader(ns);
                     var sw = new StreamWriter(ns) {AutoFlush = true};
                     var message = sr.ReadLine();
