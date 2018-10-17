@@ -1,0 +1,11 @@
+**/**/.directory
+
+**/**/.vscode
+.vscode
+**/**/.idea
+.idea
+
+**/**/obj
+**/**/bin
+obj/
+bin/
