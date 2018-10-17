@@ -74,40 +74,12 @@ namespace SocketHttp
                                  "\r\n";
 
                         sw.WriteLine(answer);
-                        break;
-                    }
-
-                    while (!string.IsNullOrEmpty(message))
-                    {
-                        Console.WriteLine("Client: " + message);
-
-                        /*
-                        * This method handles interrupt messages sent by the client.
-                        * When the server receives "stop", it informs the client and the server that it will restart.
-                        * After the connection is closed the method break the while loop and waits for a new client to
-                        * connect.
-                        */
-                        if (message == "stop")
-                        {
-                            Console.WriteLine("Received interrupt signal!");
-                            Console.WriteLine("The server will close the connection and wait for a new client.");
-                            sw.WriteLine("Received interrupt signal! Closing connection...");
-                            Thread.Sleep(2300);
-                            Console.Clear();
-                            ns.Close();
-                            ConnectionSocket.Close();
-                            break;
-                        }
-
-                        // Responds to client.
-                        answer = message.ToUpper();
-                        sw.WriteLine(answer);
-                        message = sr.ReadLine();
                     }
 
                     // Closes connection after client disconnect.
                     ns.Close();
                     ConnectionSocket.Close();
+                    break;
                 }
                 catch (ArgumentNullException)
                 {
