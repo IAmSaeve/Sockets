@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
 using System.Net.Security;
+using System.Security.Authentication;
 
 namespace SSL_Client
 {
@@ -19,7 +20,7 @@ namespace SSL_Client
             TcpClient clientSocket = new TcpClient();
             try
             {
-                clientSocket = new TcpClient("192.168.122.152", 6789);
+                clientSocket = new TcpClient("192.168.14.250", 7000);
             }
             catch (Exception e)
             {
@@ -36,12 +37,12 @@ namespace SSL_Client
             Console.WriteLine("Client ready");
 
             Stream ns = clientSocket.GetStream(); //provides a Stream
-            StreamReader sr = new StreamReader(ns);
-            StreamWriter sw = new StreamWriter(ns);
-            sw.AutoFlush = true; // enable automatic flushing
-
             SslStream sslStream = new SslStream(ns, false);
             sslStream.AuthenticateAsClient("FakeServerName");
+
+            StreamReader sr = new StreamReader(sslStream);
+            StreamWriter sw = new StreamWriter(sslStream);
+            sw.AutoFlush = true; // enable automatic 
 
             for (int i = 0; i < 5; i++)
             {
