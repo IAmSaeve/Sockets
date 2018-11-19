@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.IO;
 using System.Net;
+using System.Net.Security;
 using System.Net.Sockets;
+using System.Security.Authentication;
+using System.Security.Cryptography.X509Certificates;
 
 namespace TCPEchoSSL
 {
@@ -14,6 +18,17 @@ namespace TCPEchoSSL
             var ip = IPAddress.Parse("127.0.0.1");
             var serverSocket = new TcpListener(ip, 6789);
 
+            // SSL
+            var serverCertificateFile = Environment.CurrentDirectory + "/Cert/ServerSSL.cer";
+            if (!Environment.CurrentDirectory.Contains("Server.SSL.cer"))
+            {
+                throw new FileNotFoundException("The certificate could not be found in the current directory.");
+            }
+            var clientCertificateRequired = false;
+            var checkCertificateRevocation = true;
+            var enabledSSLProtocols = SslProtocols.Tls;
+            var serverCertificate = new X509Certificate(serverCertificateFile, "password");
+
             // Starts the server
             serverSocket.Start();
             Console.WriteLine("Server started\n");
@@ -23,6 +38,10 @@ namespace TCPEchoSSL
             {
                 Console.WriteLine("Waiting for a client to connect...");
                 var connectionSocket = serverSocket.AcceptTcpClient();
+                Stream insecureStream = connectionSocket.GetStream();
+                var leaveInnerStreamOpen = false;
+                var sslStream = new SslStream(insecureStream, leaveInnerStreamOpen);
+                sslStream.AuthenticateAsServer(serverCertificate);
                 Console.WriteLine("Server activated\n");
 
                 var es = new EchoService(connectionSocket);
