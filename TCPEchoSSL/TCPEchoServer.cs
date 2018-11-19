@@ -15,8 +15,8 @@ namespace TCPEchoSSL
         static void Main(string[] args)
         {
             // prepares the server to accept client on localhost at port 6789.
-            var ip = IPAddress.Parse("127.0.0.1");
-            var serverSocket = new TcpListener(ip, 6789);
+            //var ip = IPAddress.Parse("127.0.0.1");
+            var serverSocket = new TcpListener(IPAddress.Any, 6789);
 
             // SSL
             var serverCertificateFile = Environment.CurrentDirectory + "/Cert/ServerSSL.cer";
