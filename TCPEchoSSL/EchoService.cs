@@ -3,7 +3,7 @@ using System.IO;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace TCPEchoBetter
+namespace TCPEchoSSL
 {
     public class EchoService
     {

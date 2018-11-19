@@ -3,9 +3,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Sockets;
 
-namespace TCPEchoBetter
+namespace TCPEchoSSL
 {
-    class TCPEchoServer
+    class TcpEchoServer
     {
         [SuppressMessage("ReSharper", "FunctionNeverReturns")]
         static void Main(string[] args)
