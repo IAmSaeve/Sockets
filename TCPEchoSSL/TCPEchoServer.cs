@@ -20,7 +20,7 @@ namespace TCPEchoSSL
 
             // SSL
             var serverCertificateFile = Environment.CurrentDirectory + "/Cert/ServerSSL.cer";
-            if (!Environment.CurrentDirectory.Contains("Server.SSL.cer"))
+            if (!File.Exists(serverCertificateFile))
             {
                 throw new FileNotFoundException("The certificate could not be found in the current directory.");
             }
@@ -32,7 +32,7 @@ namespace TCPEchoSSL
             // Starts the server
             serverSocket.Start();
             Console.WriteLine("Server started\n");
-
+            
             // Infinite loop to wait for clients and running the echo service.
             while (true)
             {
