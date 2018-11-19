@@ -24,9 +24,7 @@ namespace TCPEchoSSL
             {
                 throw new FileNotFoundException("The certificate could not be found in the current directory.");
             }
-            var clientCertificateRequired = false;
-            var checkCertificateRevocation = true;
-            var enabledSSLProtocols = SslProtocols.Tls;
+            const bool leaveInnerStreamOpen = false;
             var serverCertificate = new X509Certificate(serverCertificateFile, "password");
 
             // Starts the server
@@ -38,9 +36,7 @@ namespace TCPEchoSSL
             {
                 Console.WriteLine("Waiting for a client to connect...");
                 var connectionSocket = serverSocket.AcceptTcpClient();
-                Stream insecureStream = connectionSocket.GetStream();
-                var leaveInnerStreamOpen = false;
-                var sslStream = new SslStream(insecureStream, leaveInnerStreamOpen);
+                var sslStream = new SslStream(connectionSocket.GetStream(), leaveInnerStreamOpen);
                 sslStream.AuthenticateAsServer(serverCertificate);
                 Console.WriteLine("Server activated\n");
 
